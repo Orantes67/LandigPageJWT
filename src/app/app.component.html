@@ -99,6 +99,35 @@
     </div>
   </section>
 
+
+  <!-- Video Section -->
+<section id="video" class="py-20 px-6 bg-gray-900 text-center">
+  <h2 class="text-4xl font-bold text-white mb-8">Video: Desmitificando los JWT</h2>
+  <p class="text-lg text-gray-400 mb-12 max-w-3xl mx-auto">
+    Aprende de forma visual cómo funcionan los JSON Web Tokens, sus ventajas y mejores prácticas de implementación.
+  </p>
+
+  <div class="relative max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-700">
+    <video
+      class="w-full h-auto"
+      [src]="videoPath"
+      controls
+      poster="image/video-preview.jpg"
+    >
+      Tu navegador no soporta la reproducción de video.
+    </video>
+  </div>
+
+  <div class="mt-8">
+    <button
+      class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+      (click)="scrollToSection('contact')"
+    >
+      Contáctanos para Saber Más
+    </button>
+  </div>
+</section>
+
   <!-- Call to Action / Footer -->
   <footer class="bg-gray-900 py-12 px-6 text-center">
     <h3 class="text-3xl font-bold text-white mb-6">¿Listo para Implementar JWT?</h3>
