@@ -15,5 +15,5 @@ export class AppComponent {
   imagePathIconSegurity = 'icons/verificado.png';
   imagePathIconEscalabilidad = 'icons/flexibilidad.png';
   imagePathIconFelixibilidad = 'icons/escalada.png';
-
+  videoPath = 'video/Desmitificando_los_JWT.mp4';
 }
