@@ -16,4 +16,10 @@ export class AppComponent {
   imagePathIconEscalabilidad = 'icons/flexibilidad.png';
   imagePathIconFelixibilidad = 'icons/escalada.png';
   videoPath = 'video/Desmitificando_los_JWT.mp4';
+  scrollToSection(sectionId: string): void {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 }
