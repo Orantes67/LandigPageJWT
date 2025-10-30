@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'JWT';
+  imagenPathLogo = 'icons/Logo.svg';
+  imagenPathFuction = 'image/JWT.gif';
+  imagePathIconSegurity = 'icons/verificado.png';
+  imagePathIconEscalabilidad = 'icons/flexibilidad.png';
+  imagePathIconFelixibilidad = 'icons/escalada.png';
+
 }
